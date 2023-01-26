@@ -1,0 +1,65 @@
+
+
+{
+    "packet_creation_timestamp": 1674755744,
+    "sensor_radio_type": "lora",
+    "generating_process_id": "mqtt-lora-bridge-split_92d",
+    "transmission_type": "scheduled",
+    "header": {
+        "common": {
+            "serial_number": "343531314F377510",
+            "device_type": "aqura_water",
+            "payload_type": "commodity",
+            "gateway_timestamp": "2023-01-26T17:55:48.904Z",
+            "gateway_hostname": "02020000070024F4",
+            "firmware_version": "0.02"
+        },
+        "lora": {
+            "port": 210,
+            "bridge_decoder": 75,
+            "channel": 1,
+            "device_address": "45180AC3",
+            "rssi": -95,
+            "gateway_snr": 8.5,
+            "spreading_factor": 7,
+            "decoder_type": "Unknown",
+            "message_type": 2,
+            "frame_count_uplink": 16499,
+            "frame_count_downlink": 3491,
+            "sub_band": "G0",
+            "gateway_count": 1,
+            "gateway_list": [
+                {
+                    "GatewayID": "070024F4",
+                    "GatewayRSSI": "-95.000000",
+                    "GatewaySNR": "8.500000",
+                    "GatewayESP": "-95.573822"
+                }
+            ],
+            "raw_packet": "000056c1ef318c1b4c4076"
+        }
+    },
+    "sensor_data": {
+        "battery_vdc_millivolts": 3672,
+        "gallons": 22209.93,
+        "flow_events": 12684,
+        "flow_time_minutes": 6988,
+        "transmit_attempt_count": 16502
+    },
+    "location_information": {
+        "location_information_found": 0,
+        "property_name": "",
+        "building_name": "",
+        "apartment_name": "",
+        "property_id": 0,
+        "building_id": 0,
+        "apartment_id": 0,
+        "device_unique_id": 0,
+        "repair_flag": 0,
+        "repair_flag_reason": "",
+        "bedroom_count": 0,
+        "bathroom_count": 0,
+        "meter_type": "",
+        "attached_to": ""
+    }
+}
